@@ -19,7 +19,7 @@ export const Card = (props) => {
     const addProductToCart = (e, productDetail) => {
         e.stopPropagation();
         setCount(count + 1);
-        setCartProducts([...cartProducts], productDetail);
+        setCartProducts([...cartProducts, productDetail]);
         closeProductDetail();
         openCheckoutSideMenu();
     }
