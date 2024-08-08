@@ -1,10 +1,12 @@
-function MyOrders() {
+import {Layout} from "../../Components/Layout/index.jsx";
+
+export const MyOrders = () => {
 
     return (
         <div className="bg-red-100">
-            MyOrders
+            <Layout>
+                MyOrders
+            </Layout>
         </div>
     )
 }
-
-export default MyOrders

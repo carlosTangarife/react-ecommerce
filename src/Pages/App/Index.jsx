@@ -7,8 +7,8 @@ import {Navbar} from "../../Components/Navbar/index.jsx";
 function App() {
     return (
         <BrowserRouter>
-            <AppRoutes/>
             <Navbar />
+            <AppRoutes/>
         </BrowserRouter>
     )
 }

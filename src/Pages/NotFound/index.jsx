@@ -1,10 +1,12 @@
-function NotFound() {
+import {Layout} from "../../Components/Layout/index.jsx";
+
+export const NotFound = () => {
 
     return (
         <div className="bg-red-100">
-            NotFound
+            <Layout>
+                NotFound
+            </Layout>
         </div>
     )
 }
-
-export default NotFound

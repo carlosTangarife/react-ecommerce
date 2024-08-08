@@ -1,10 +1,11 @@
-function Home() {
+import {Layout} from '../../Components/Layout';
 
+export const Home = () => {
     return (
         <div className="bg-red-100">
-            Home
+            <Layout>
+                Home
+            </Layout>
         </div>
     )
 }
-
-export default Home

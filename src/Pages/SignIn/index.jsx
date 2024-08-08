@@ -1,10 +1,12 @@
-function SignIn() {
+import {Layout} from "../../Components/Layout/index.jsx";
+
+export const SignIn = () => {
 
     return (
         <div className="bg-red-100">
-            SignIn
+            <Layout>
+                SignIn
+            </Layout>
         </div>
     )
 }
-
-export default SignIn
