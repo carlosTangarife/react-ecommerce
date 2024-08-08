@@ -1,9 +1,9 @@
 import {BrowserRouter} from 'react-router-dom';
 
 import './App.css'
-import {AppRoutes} from "./AppRoutes.jsx";
-import {Navbar} from "../../Components/Navbar/index.jsx";
-import {ShoppingCartProvider} from "../../Context/index.jsx";
+import {AppRoutes} from "./AppRoutes";
+import {Navbar} from "../../Components/Navbar";
+import {ShoppingCartProvider} from "../../Context";
 
 function App() {
     return (
