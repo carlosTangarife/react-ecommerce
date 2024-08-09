@@ -1,5 +1,4 @@
 import {XMarkIcon} from "@heroicons/react/24/solid";
-import './styles.css';
 
 export const OrderCard = (props) => {
     const {title, images, price} = props;
