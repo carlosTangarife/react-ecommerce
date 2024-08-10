@@ -20,7 +20,7 @@ export const Home = () => {
                     className="rounded-lg border border-black w-80 p-4 mb-4 focus:outline-none"
                     placeholder="Search a product"
                     value={searchByTitle}
-                    onChange={(event) => setSearchByTitle(event.target.value)}
+                    onChange={(event) => setSearchByTitle(event.target?.value?.toLowerCase())}
                 />
 
                 <div className="grid gap-4 grid-cols-4 w-full max-w-screen-lg">

@@ -9,6 +9,13 @@ import {SignIn} from "../SignIn/index.jsx";
 export const AppRoutes = () => {
     return useRoutes([
         {path: '/', element: <Home/>},
+        {path: '/all', element: <Home/>},
+        {path: '/clothes', element: <Home/>},
+        {path: '/electronics', element: <Home/>},
+        {path: '/furniture', element: <Home/>},
+        {path: '/toys', element: <Home/>},
+        {path: '/others', element: <Home/>},
+        {path: '/', element: <Home/>},
         {path: '/my-account', element: <MyAccount/>},
         {path: '/my-order', element: <MyOrder/>},
         {path: '/my-orders', element: <MyOrders/>},
